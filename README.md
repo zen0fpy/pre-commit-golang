@@ -16,6 +16,7 @@ repos:
   - repo: git://github.com/zen0fpy/pre-commit-golang
     rev: master
     hooks:
+      - id: go-tools
       - id: go-fmt-import
       - id: go-vet
       - id: go-lint
