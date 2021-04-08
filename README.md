@@ -14,7 +14,7 @@ Add a file named `.pre-commit-config.yaml` into the root directory of your repos
 ```yaml
 repos:
   - repo: git://github.com/zen0fpy/pre-commit-golang
-    rev: 1.0.0
+    rev: 1.0.1
     hooks:
       - id: install-go-tools
       - id: go-fmt-import
