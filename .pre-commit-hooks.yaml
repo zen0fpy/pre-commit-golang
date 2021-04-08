@@ -1,3 +1,9 @@
+-   id: install-gotools
+    name: 'install gotools'
+    entry: run-install-go-tools.sh
+    language: 'script'
+    description: "Install go tools"
+
 -   id: go-fmt-import
     name: 'go import/fmt'
     entry: run-go-fmt-import.sh
