@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 go get -u golang.org/x/lint/golint
-go get -U github.com/kisielk/errcheck
-go get -U github.com/mvdan/gofumpt
-go get -U github.com/golangci/golangci-lint/cmd/golangci-lint
+go get -u github.com/kisielk/errcheck
+go get -u github.com/mvdan/gofumpt
+go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 go get honnef.co/go/tools/cmd/staticcheck
 
 # 用来检查函数的复杂度
