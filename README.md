@@ -26,6 +26,7 @@ repos:
       - id: go-interfacer
       - id: go-cyclo
       - id: go-deadcode
+      - id: go-misspell
       - id: go-unit-tests
       - id: gofumpt # requires github.com/mvdan/gofumpt
       - id: go-err-check # requires github.com/kisielk/errcheck

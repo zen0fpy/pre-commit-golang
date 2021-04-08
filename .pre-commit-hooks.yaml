@@ -1,4 +1,4 @@
--   id: install-gotools
+-   id: install-go-tools
     name: 'install gotools'
     entry: run-install-go-tools.sh
     language: 'script'
