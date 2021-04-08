@@ -29,6 +29,7 @@ repos:
 
 ## Command
 ```
+pre-commit autoupdate
 pre-commit run --all-files
 pre-commit run --help
 ```
