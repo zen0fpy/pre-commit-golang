@@ -4,7 +4,7 @@ go get -u golang.org/x/lint/golint
 go get -u github.com/kisielk/errcheck
 go get -u github.com/mvdan/gofumpt
 go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
-go get honnef.co/go/tools/cmd/staticcheck
+go get -u honnef.co/go/tools/cmd/staticcheck
 
 # 用来检查函数的复杂度
 # 命令列出了所有复杂度大于12的函数
