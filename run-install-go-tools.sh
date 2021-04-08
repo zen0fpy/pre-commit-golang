@@ -10,10 +10,10 @@ go get -u honnef.co/go/tools/cmd/staticcheck
 # 命令列出了所有复杂度大于12的函数
 # gocyclo -over 12 $(ls -d */ | grep -v vendor)
 # gocyclo -top 10 $(ls -d */ | grep -v vendor)
-go get -u github.com/fzipp/gocyclo
+go get github.com/fzipp/gocyclo/cmd/gocyclo
 
 # interface 这个工具提供接口类型的建议，换句话说，它会对可以本没有必要定义成具体的类型的代码提出警告
-go get -u github.com/mvdan/interfacer/cmd/interfacer
+go get -u mvdan.cc/interfacer
 
 # deadcode会告诉你哪些代码片段根本没用
 go get -u github.com/tsenart/deadcode

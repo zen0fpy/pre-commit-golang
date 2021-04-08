@@ -24,6 +24,7 @@ repos:
       - id: go-type
       - id: go-interfacer
       - id: go-cyclo
+      - id: go-const
       - id: go-deadcode
       - id: go-misspell
       - id: go-unit-tests

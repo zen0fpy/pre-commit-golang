@@ -88,7 +88,6 @@
    language: 'script'
    description: "Runs `gotype`, install https://golang.org/x/tools/cmd/gotype"
 
-
 -  id: go-misspell
    name: 'go misspell'
    entry: run-go-misspell.sh
@@ -102,3 +101,10 @@
    files: '\.go$'
    language: 'script'
    description: "Runs `gosimple`, install https://honnef.co/go/simple/cmd/gosimple"
+
+-  id: go-const
+   name: 'go const'
+   entry: run-go-const.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `goconst`, install  github.com/jgautheron/goconst/cmd/goconst"
