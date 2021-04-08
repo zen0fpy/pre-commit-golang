@@ -16,10 +16,16 @@ repos:
   - repo: git://github.com/zen0fpy/pre-commit-golang
     rev: master
     hooks:
+      - id: install-go-tools
       - id: go-tools
       - id: go-fmt-import
       - id: go-vet
       - id: go-lint
+      - id: go-simple
+      - id: go-type
+      - id: go-interfacer
+      - id: go-cyclo
+      - id: go-deadcode
       - id: go-unit-tests
       - id: gofumpt # requires github.com/mvdan/gofumpt
       - id: go-err-check # requires github.com/kisielk/errcheck

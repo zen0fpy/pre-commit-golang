@@ -1,13 +1,16 @@
 #!/usr/bin/env sh
 
 go get -u golang.org/x/lint/golint
+go get -U github.com/kisielk/errcheck
+go get -U github.com/mvdan/gofumpt
+go get -U github.com/golangci/golangci-lint/cmd/golangci-lint
+go get honnef.co/go/tools/cmd/staticcheck
 
 # 用来检查函数的复杂度
 # 命令列出了所有复杂度大于12的函数
 # gocyclo -over 12 $(ls -d */ | grep -v vendor)
 # gocyclo -top 10 $(ls -d */ | grep -v vendor)
 go get -u github.com/fzipp/gocyclo
-
 
 # interface 这个工具提供接口类型的建议，换句话说，它会对可以本没有必要定义成具体的类型的代码提出警告
 go get -u github.com/mvdan/interfacer/cmd/interfacer
@@ -27,3 +30,5 @@ go get -u github.com/dominikh/go-tools
 # goconst 会查找重复的字符串，这些字符串可以抽取成常量。
 go get -u github.com/jgautheron/goconst/cmd/goconst
 
+# gosimple 提供信息，帮助你了解哪些代码可以简化
+go get -u honnef.co/go/simple/cmd/gosimple

@@ -59,3 +59,39 @@
    files: '\.go$'
    language: 'script'
    description: "Runs `golangci-lint`, install https://github.com/golangci/golangci-lint"
+
+-  id: go-interfacer
+   name: 'go interfacer'
+   entry: run-go-interfacer.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `interface`, install https://github.com/mvdan/interfacer"
+
+-  id: go-cyclo
+   name: 'go cyclo'
+   entry: run-go-cyclo.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `gocyclo`, install https://github.com/fzipp/gocyclo"
+
+-  id: go-deadcode
+   name: 'go deadcode'
+   entry: run-go-deadcode.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `gocyclo`, install https://github.com/tsenart/deadcode"
+
+-  id: go-type
+   name: 'go type'
+   entry: run-go-type.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `gotype`, install https://golang.org/x/tools/cmd/gotype"
+
+
+-  id: go-misspell
+   name: 'go misspell'
+   entry: run-go-misspell.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `go-misspell`, install https://github.com/client9/misspell"
