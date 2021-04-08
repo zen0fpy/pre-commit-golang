@@ -20,7 +20,6 @@ repos:
       - id: go-fmt-import
       - id: go-vet
       - id: go-lint
-      - id: go-simple
       - id: go-type
       - id: go-interfacer
       - id: go-cyclo
