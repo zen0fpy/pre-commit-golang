@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env sh
+
 
 PASS=true
 for FILE in "$@"

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 ERRS=$(golangci-lint run --new-from-rev="$(git rev-parse HEAD)")
 

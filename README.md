@@ -26,6 +26,14 @@ repos:
       - id: go-static-check # install https://staticcheck.io/docs/
       - id: golangci-lint # requires github.com/golangci/golangci-lint
 ```
+
+## Command
+```
+pre-commit run --all-files
+pre-commit run --help
+```
+
+
 ## Contributing
 - Fork it
 - Create your feature branch `git checkout -b my-new-feature`

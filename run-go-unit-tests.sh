@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 PASS=true
 for DIR in $(echo "$@"|xargs -n1 dirname|sort -u); do

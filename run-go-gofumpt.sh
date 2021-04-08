@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 LIST_OF_FILES=$(gofumpt -s -l -w "$@")
 # print a list of affected files if any
