@@ -30,5 +30,5 @@ go get -u github.com/dominikh/go-tools
 # goconst 会查找重复的字符串，这些字符串可以抽取成常量。
 go get -u github.com/jgautheron/goconst/cmd/goconst
 
-# gosimple 提供信息，帮助你了解哪些代码可以简化
-go get -u honnef.co/go/simple/cmd/gosimple
+## gosimple 提供信息，帮助你了解哪些代码可以简化
+#go get -u honnef.co/go/simple/cmd/gosimple
