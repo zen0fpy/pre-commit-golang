@@ -95,3 +95,10 @@
    files: '\.go$'
    language: 'script'
    description: "Runs `go-misspell`, install https://github.com/client9/misspell"
+
+-  id: go-simple
+   name: 'go simple'
+   entry: run-go-simple.sh
+   files: '\.go$'
+   language: 'script'
+   description: "Runs `gosimple`, install https://honnef.co/go/simple/cmd/gosimple"

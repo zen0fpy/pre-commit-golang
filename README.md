@@ -17,7 +17,6 @@ repos:
     rev: master
     hooks:
       - id: install-go-tools
-      - id: go-tools
       - id: go-fmt-import
       - id: go-vet
       - id: go-lint
